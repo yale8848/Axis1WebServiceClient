@@ -1,0 +1,24 @@
+
+/**
+ * @File_Name£ºHelloWorldService.java 
+ * @Project_Name£ºtestdemo        
+ * @Author£ºwucq   
+ * @Create_Date£º2010-09-07 15:44:05   
+ * @Update_By£º   
+ * @Update_Date£º
+ *   
+ * @ChangeList£º 
+ * -------------------------------
+ * Date      Editor         ChangeReasons
+ *
+ *  
+ * @version 1.0
+ *    
+ */
+public class HelloWorldService {
+	private final static String sGreeting = "Hello World!";
+
+	public String getMessage(){
+		return (sGreeting);
+	}
+}
